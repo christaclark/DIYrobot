@@ -445,6 +445,9 @@ header .container {
 	height: 12px;
 }
 
+#side-nav a.active:after, #side-nav a:hover:after {
+    border: 10px solid #fff !important;
+	}
 
 #side-nav #top:after {
 	position: absolute;

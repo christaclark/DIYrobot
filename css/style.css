@@ -549,6 +549,71 @@ header .container {
 	float: left;
 }
 
+.hero {
+	display: block;
+	width: 100%;
+	background-color: #38b688;
+	background-image: linear-gradient(0deg, #01ffc6 0%, #38b688 100%);
+	background-size: cover;
+}
+
+
+.section1 {
+	  background-color: #01ffc6;
+		background-image: linear-gradient(0deg, #04d9ec 0%, #01ffc6 100%);
+}
+
+.section2 {
+	background-color: #04d9ec;
+	background-image: linear-gradient(0deg, #0485ec 0%, #04d9ec 100%);
+}
+
+
+.section3 {
+	background-color: #0485ec;
+	background-image: linear-gradient(0deg, #7c4488 0%, #0485ec 100%);
+}
+
+.section4 {
+	  background-color: #7c4488;
+		background-image: linear-gradient(0deg, #ff2954 0%, #7c4488 100%);
+}
+
+.section5 {
+	background-color: #ff2954;
+	background-image: linear-gradient(0deg, #ff7646 0%,  #ff2954 100%);
+}
+
+.section6 {
+	background-color: #ff7646;
+	background-image: linear-gradient(0deg, #ff9523 0%, #ff7646  100%);
+}
+
+.section7 {
+	background-color: #ff9523;
+	background-image: linear-gradient(0deg, #ffdb23 0%, #ff9523  100%);
+}
+
+/* Original gradient - - - - - - - - - -
+Green
+#38b688
+#01ffc6
+
+Blue
+#04d9ec
+#0485ec
+
+Purple
+#47306c
+#7c4488
+
+Red
+#ff2954
+#ff7646
+
+Yellow
+#ff9523
+#ffdb23
 
 .section1 {
 	background-color: #08AEEA;
@@ -580,18 +645,12 @@ header .container {
 	background-color: #e8437b;
 	background-image: linear-gradient(0deg, #FF9800 0%, #e8437b 100%);
 }
-
+*/
 
 
 /* =Hero
 -------------------------------------------------------------- */
-.hero {
-	display: block;
-	width: 100%;
-	background-color: #08AEEA;
-	background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
-	background-size: cover;
-}
+
 
 .robot  {
 	min-height: 200px;

@@ -225,14 +225,14 @@
 
             messages: {
                 name: {
-                    required: "come on, you have a name don't you?",
+                    required: "you have a name, don't you?",
                     minlength: "your name must consist of at least 2 characters"
                 },
                 email: {
-                    required: "no email, no message"
+                    required: "we need to know what kind of robot it is!"
                 },
                 message: {
-                    required: "um...yea, you have to write something to send this form.",
+                    required: "this is the fun part!",
                     minlength: "thats all? really?"
                 }
             },
@@ -257,5 +257,5 @@
                 });
             }
         });
-    });    
+    });
 })();

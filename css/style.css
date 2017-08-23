@@ -13,9 +13,7 @@ Author URI: http://www.AetherThemes.com
 	=Navigation
 	=Hero
 	=Bars
-	=Portfolio
-	=Timeline
-	=Clients
+	= Robots
 	=Contact
 	=Footer
 	=Animations
@@ -557,95 +555,58 @@ header .container {
 	background-size: cover;
 }
 
+.section-background {
+	background-size: cover !important;
+	width: 100vw;
+	min-height: 75vw;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
 
 .section1 {
 	  background-color: #01ffc6;
-		background-image: linear-gradient(0deg, #04d9ec 0%, #01ffc6 100%);
+		background-image: linear-gradient(0deg, #05d1ec 0%, #01ffc6 100%);
+		min-height: 50vw;
 }
 
 .section2 {
 	background-color: #04d9ec;
 	background-image: linear-gradient(0deg, #0485ec 0%, #04d9ec 100%);
+	background: url(../images/scenes/1.png);
 }
 
 
 .section3 {
 	background-color: #0485ec;
 	background-image: linear-gradient(0deg, #7c4488 0%, #0485ec 100%);
+	background: url(../images/scenes/2.png);
 }
 
 .section4 {
 	  background-color: #7c4488;
 		background-image: linear-gradient(0deg, #ff2954 0%, #7c4488 100%);
+		background: url(../images/scenes/3.png);
 }
 
 .section5 {
 	background-color: #ff2954;
 	background-image: linear-gradient(0deg, #ff7646 0%,  #ff2954 100%);
+	background: url(../images/scenes/4.png);
 }
 
 .section6 {
 	background-color: #ff7646;
 	background-image: linear-gradient(0deg, #ff9523 0%, #ff7646  100%);
+	background: url(../images/scenes/5.png);
 }
 
 .section7 {
 	background-color: #ff9523;
 	background-image: linear-gradient(0deg, #ffdb23 0%, #ff9523  100%);
+	background: url(../images/scenes/6.png);
 }
 
-/* Original gradient - - - - - - - - - -
-Green
-#38b688
-#01ffc6
-
-Blue
-#04d9ec
-#0485ec
-
-Purple
-#47306c
-#7c4488
-
-Red
-#ff2954
-#ff7646
-
-Yellow
-#ff9523
-#ffdb23
-
-.section1 {
-	background-color: #08AEEA;
-	background-image: linear-gradient(0deg, #885ed2 0%, #08AEEA 100%);
-}
-
-.section2 {
-	  background-color: #885ed2;
-		background-image: linear-gradient(0deg, #e8437b 0%, #885ed2 100%);
-}
-
-.section3 {
-	background-color: #e8437b;
-	background-image: linear-gradient(0deg, #FF9800 0%, #e8437b 100%);
-}
-
-
-.section4 {
-	background-color: #08AEEA;
-	background-image: linear-gradient(0deg, #885ed2 0%, #08AEEA 100%);
-}
-
-.section5 {
-	  background-color: #885ed2;
-		background-image: linear-gradient(0deg, #e8437b 0%, #885ed2 100%);
-}
-
-.section6 {
-	background-color: #e8437b;
-	background-image: linear-gradient(0deg, #FF9800 0%, #e8437b 100%);
-}
-*/
 
 
 /* =Hero
@@ -671,6 +632,7 @@ Yellow
 	background: url(../images/arrow@2x.png) no-repeat center;
 	background-size: 30px 30px;
 	opacity: .5;
+
 
 	-webkit-transition: all 0.3s ease-in-out;
 	   -moz-transition: all 0.3s ease-in-out;
@@ -772,8 +734,14 @@ Yellow
 }
 
 
-/* =Portfolio
+/* = Robot Sections
 -------------------------------------------------------------- */
+.mfp-figure:after {
+    box-shadow: none;
+    background: transparent;
+	}
+
+
 .folio-list li {
 	margin-bottom: 30px;
 }
@@ -888,7 +856,7 @@ Yellow
 
 
 /* =Timeline
--------------------------------------------------------------- */
+--------------------------------------------------------------
 .timeline {
 	margin-top: 20px;
 	overflow: hidden;
@@ -927,8 +895,8 @@ Yellow
 
 .timeline .entry:before,
 .timeline .entry:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    display: table;
 }
 
 .timeline .entry:after {
@@ -1003,31 +971,7 @@ Yellow
 }
 
 
-/* =Clients
--------------------------------------------------------------- */
-.client {
-	display: block;
-	opacity: .3;
-	margin: 20px;
-	-webkit-transition: all 0.3s ease-in-out;
-	   -moz-transition: all 0.3s ease-in-out;
-	   	-ms-transition: all 0.3s ease-in-out;
-	   	 -o-transition: all 0.3s ease-in-out;
-			transition: all 0.3s ease-in-out;
-}
 
-.client:hover {
-	opacity: 1;
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-	.client {
-		display: inline-block;
-		margin: 10px 40px 0px 0px;
-	}
-
-}
 
 
 /* =Contact

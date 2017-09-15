@@ -84,7 +84,7 @@ h1 {
 h2 {
 	font-family: 'MarkPro', sans-serif;
 	font-weight: bold;
-	font-size: 24px;
+	font-size: 30px;
 }
 
 h3 {
@@ -550,8 +550,9 @@ header .container {
 .hero {
 	display: block;
 	width: 100%;
-	background-color: #38b688;
-	background-image: linear-gradient(0deg, #01ffc6 0%, #38b688 100%);
+	/*background-color: #38b688;
+	background-image: linear-gradient(0deg, #01ffc6 0%, #38b688 100%); */
+	background-image: url(../images/DIYbackground.png);
 	background-size: cover;
 }
 
@@ -567,6 +568,7 @@ header .container {
 .section1 {
 	  background-color: #01ffc6;
 		background-image: linear-gradient(0deg, #05d1ec 0%, #01ffc6 100%);
+		background: url(../images/Background.png);
 		min-height: 50vw;
 }
 

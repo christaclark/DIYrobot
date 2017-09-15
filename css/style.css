@@ -565,56 +565,86 @@ header .container {
 
 }
 
-.section1 {
+.sectionIntro {
 	  background-color: #01ffc6;
 		background-image: linear-gradient(0deg, #05d1ec 0%, #01ffc6 100%);
 		background: url(../images/Background.png);
 		min-height: 50vw;
 }
 
-.section2 {
+.section1 {
 	background-color: #04d9ec;
 	background-image: linear-gradient(0deg, #0485ec 0%, #04d9ec 100%);
 	background: url(../images/scenes/1.png);
 }
 
-.section12 {
+.section2 {
 	background-color: #04d9ec;
 	background-image: linear-gradient(0deg, #0485ec 0%, #04d9ec 100%);
-	background: url(../images/scenes/12.png);
+	background: url(../images/scenes/2.png);
 }
 
 
 .section3 {
 	background-color: #0485ec;
 	background-image: linear-gradient(0deg, #7c4488 0%, #0485ec 100%);
-	background: url(../images/scenes/2.png);
+	background: url(../images/scenes/3.png);
 }
 
 .section4 {
 	  background-color: #7c4488;
 		background-image: linear-gradient(0deg, #ff2954 0%, #7c4488 100%);
-		background: url(../images/scenes/3.png);
+		background: url(../images/scenes/4.png);
 }
 
 .section5 {
 	background-color: #ff2954;
 	background-image: linear-gradient(0deg, #ff7646 0%,  #ff2954 100%);
-	background: url(../images/scenes/4.png);
+	background: url(../images/scenes/5.png);
 }
 
 .section6 {
 	background-color: #ff7646;
 	background-image: linear-gradient(0deg, #ff9523 0%, #ff7646  100%);
-	background: url(../images/scenes/5.png);
+	background: url(../images/scenes/6.png);
 }
 
 .section7 {
 	background-color: #ff9523;
 	background-image: linear-gradient(0deg, #ffdb23 0%, #ff9523  100%);
-	background: url(../images/scenes/6.png);
+	background: url(../images/scenes/7.png);
 }
 
+.section8 {
+	  background-color: #7c4488;
+		background-image: linear-gradient(0deg, #ff2954 0%, #7c4488 100%);
+		background: url(../images/scenes/8.png);
+}
+
+.section9 {
+	background-color: #ff2954;
+	background-image: linear-gradient(0deg, #ff7646 0%,  #ff2954 100%);
+	background: url(../images/scenes/9.png);
+}
+
+.section10 {
+	background-color: #ff7646;
+	background-image: linear-gradient(0deg, #ff9523 0%, #ff7646  100%);
+	background: url(../images/scenes/10.png);
+}
+
+.section11 {
+	background-color: #ff9523;
+	background-image: linear-gradient(0deg, #ffdb23 0%, #ff9523  100%);
+	background: url(../images/scenes/11.png);
+}
+
+
+.section12 {
+	background-color: #04d9ec;
+	background-image: linear-gradient(0deg, #0485ec 0%, #04d9ec 100%);
+	background: url(../images/scenes/12.png);
+}
 
 
 /* =Hero

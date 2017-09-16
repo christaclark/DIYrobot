@@ -647,6 +647,24 @@ header .container {
 }
 
 
+.sectionQ1 {
+	background-color: #04d9ec;
+	background-image: linear-gradient(0deg, #0485ec 0%, #04d9ec 100%);
+	background: url(../images/BackgroundIcons.png);
+}
+
+.sectionQ2 {
+	background-color: #04d9ec;
+	background-image: linear-gradient(0deg, #3b92e4 0%, #04d9ec 100%);
+}
+
+
+.sectionQ3 {
+	background-color: #04d9ec;
+	background-image: linear-gradient(0deg, #04d9ec 0%, #3b92e4 100%);
+}
+
+
 /* =Hero
 -------------------------------------------------------------- */
 
